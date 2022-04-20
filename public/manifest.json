@@ -8,8 +8,15 @@
     "default_title": "Open the popup"
   },
   "icons": {
-    "16": "logo192.png",
-    "48": "logo192.png",
-    "128": "logo192.png"
-  }
+    "16": "til_logo.jpg",
+    "48": "til_logo.jpg",
+    "128": "til_logo.jpg"
+  },
+  "permissions": ["activeTab", "storage", "contextMenus"],
+  "background": [
+    {
+      "persistent": false,
+      "scripts": ["./static/js/content.js"]
+    }
+  ]
 }
